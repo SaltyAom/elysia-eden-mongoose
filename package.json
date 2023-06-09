@@ -1,0 +1,17 @@
+{
+  "name": "elysia-eden",
+  "version": "1.0.40",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^0.5.3",
+    "elysia": "^0.5.17",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
